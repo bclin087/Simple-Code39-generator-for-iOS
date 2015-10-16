@@ -1,7 +1,7 @@
 # Simple-Code39-generator-for-iOS
 One class, one method, turn your NSString to Code39 encoded UIImage, no hassle!
 
-In one of my recent projects I need to generate a code39 barcode, at first I think it should be a simple task as I've done it before with C# in one function. But after some googling, I've found there's no such simple way shared with Objective-C code. There are commercial libararies that charges, there are open source libraries that are free but (relatively) too complex and too many dependencies to add for such a simple task, so I've decided to write my own iOS version and share with everyone else that may need it some day.
+In one of my recent projects I need to generate a code39 barcode, at first I think it should be a simple task as I've done it before with C# in one function. But after some googling, I've found there's no such simple way shared with Objective-C code. There are commercial libraries that charges, there are open source libraries that are free but (relatively) too complex and too many dependencies to add for such a simple task, so I've decided to write my own iOS version and share with everyone else that may need it some day.
 
 Usage:
 
