@@ -17,7 +17,7 @@
     CGFloat x = 1; // Left Margin
     CGFloat y = 0; // Top Margin
     // Width = ((WidLength * 3 + NarrowLength * 7) * (intSourceLength + 2)) + (x * 2)
-    CGFloat NarrowLength = (barcodew/(intSourceLength + 2)) / 17.0; // Length of narrow bar
+    CGFloat NarrowLength = (barcodew/(intSourceLength + 2)) / 13.0; // Length of narrow bar
     CGFloat WidLength = NarrowLength * 2; // Length of Wide bar
     NSString *strEncode = @"010010100"; // Encoding string for starting and ending mark *
     NSString * AlphaBet = @"0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ-. $/+%*"; // Code39 alphabets
